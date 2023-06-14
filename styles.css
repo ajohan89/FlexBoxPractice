@@ -54,7 +54,7 @@ ul{
     font-size: 30px;
 }
 p{
-    color: #000;
+    color: #fff;
 }
 /* hr{
     background: rgb(32,42,55);
@@ -100,19 +100,35 @@ button{
     font-style: italic;
 }
 .signup .container{
-    background: #fff;
+    background: #3B82F6;
     height: 200px;
-    margin: 20px 20px;
+    margin: 60px 150px;
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
-
+.signup button{
+    margin-left: 20px;
+}
 .signup .source{
-    background: #3B82F6;
+    
     height: 100px;
     color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
 }
 .signup p{
     color: #E5E7EB;
+}
+
+/* footer */
+.footer .container{
+    background: rgb(32,42,55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-weight: 40px;
 }
