@@ -1,0 +1,118 @@
+/* I am using containers for all the different sections of my html document */
+
+/* main container */
+.container{
+    max-width: 1100px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+/* Navbar container */
+.navbar .container{
+    display: flex;
+    background: rgb(32,42,55);
+    height: 100px;
+    justify-content: space-between;
+}
+.navbar .logo{
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: bold;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;  
+}
+.navbar ul li{
+    margin-left: 20px;
+}
+.navbar a{
+    color: #fff;
+    font-weight: bold;
+}
+
+/* main content */
+
+.main_content img{
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+}
+.main_content .container{
+    background: rgb(32,42,55);
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+/* other */
+ul{
+    list-style-type: none;
+}
+.main_content h1{
+    font-weight: bolder;
+    color: #fff;
+    font-size: 30px;
+}
+p{
+    color: #000;
+}
+/* hr{
+    background: rgb(32,42,55);
+} */
+
+button{
+    background: #3B82F6;
+    color: #fff;
+    border-radius: 15px;
+    font-weight: bold;
+    height: 50px;
+    width: 100px;
+}
+
+.boxes .container{
+    display: flex;
+    height: 300px;
+    background: #fff;
+    justify-content: space-between;
+
+}
+.boxes p{
+    color: black;
+}
+.boxes h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.boxes img{
+    height: 200px;
+    width: 200px;
+}
+.quotes .container{
+    background: #E5E7EB;
+    color: #1F2937;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: 36px;
+    font-style: italic;
+}
+.signup .container{
+    background: #fff;
+    height: 200px;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.signup .source{
+    background: #3B82F6;
+    height: 100px;
+    color: #fff;
+}
+.signup p{
+    color: #E5E7EB;
+}
